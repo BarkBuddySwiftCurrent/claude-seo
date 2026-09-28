@@ -108,8 +108,10 @@ seo command demo.gif
 Google-SEO-Report-*.html
 Google-SEO-Report-*.pdf
 
-# Claude Code local config (project-specific permissions, not for repo)
-.claude/
+# Claude Code local config (project-specific permissions, not for repo).
+# Project skills in .claude/skills/ are the exception: they are shared on purpose.
+.claude/*
+!.claude/skills/
 .superpowers/
 
 # Site-specific analysis outputs
